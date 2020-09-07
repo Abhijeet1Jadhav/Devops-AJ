@@ -1,0 +1,22 @@
+  </versionRange>
+                                        <goals>
+                                            <goal>insert-test</goal>
+                                            <goal>
+                                                resolve-test-dependencies
+                                            </goal>
+                                            <goal>test-hpl</goal>
+                                            <goal>validate</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <ignore />
+                                    </action>
+                                </pluginExecution>
+                            </pluginExecutions>
+                        </lifecycleMappingMetadata>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
